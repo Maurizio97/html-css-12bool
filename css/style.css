@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+[class*=col-] {
+    height: 60px;
+    background-color: rgb(15, 92, 207);
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-xs-1 {
+    height: 60px;
+    background-color: rgb(15, 92, 207);
+}
